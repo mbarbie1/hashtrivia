@@ -1,0 +1,15 @@
+[project]
+name = "hashtrivia"
+version = "1.0.0"
+description = "Small user interface to verify hashes of files."
+authors = [
+    {name = "mbarbie1", email = "michael.barbier@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
