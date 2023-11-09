@@ -14,7 +14,7 @@ At the moment only an executable for Windows is provided. The executable named
 The app computes hashes for a provided file. These hashes can be visually 
 verified of hashes can be compared to a hash copied to the clipboard.
 
-![plot](./docs_data/ui.png)
+![Screenshot](./docs_data/ui_compare.png)
 
 ## Contributing
 
