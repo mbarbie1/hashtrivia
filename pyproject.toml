@@ -5,7 +5,7 @@ description = "Small user interface to verify hashes of files."
 authors = [
     {name = "mbarbie1", email = "michael.barbier@gmail.com"},
 ]
-dependencies = []
+dependencies = ["pysimplegui", "pyperclip"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "Apache-2.0"}
@@ -13,3 +13,6 @@ license = {text = "Apache-2.0"}
 [build-system]
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
+
+[project.scripts]
+hashtrivia_run = "hashtrivia.app:main"
